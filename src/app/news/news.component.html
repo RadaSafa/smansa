@@ -1,0 +1,40 @@
+<div class="bg-slate-100">
+  <div class="pt-8 mx-32">
+    <div class="search">
+      <input
+        type="text"
+        class="input"
+        placeholder=" search news"
+        name="search"
+        [(ngModel)]="searchText"
+        autocomplete="off"
+        size="50"
+      />
+      <button class="btn">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+    <div class="flex justify-center items-center mt-6 w-9/12 bg-white">
+      {{ searchText }}
+      <div class="mt-8 img">
+        <img src="./assets/images/img6.jpeg" alt="" />
+
+        <a
+          href="http://smanegeri1prabumulih.sch.id/smansa-memborong-mendali-di-kejuaraan-renang-walikota-cup/"
+          class="pt-6 text-3xl font-bold"
+        >
+          SMANSA memborong mendali di kejuaraan renang Walikota CUP
+        </a>
+
+        <div class="hr mt-4"></div>
+
+        <div class="flex">
+          <div>November 7,2022 |</div>
+
+          <div>November 7,2022 |</div>
+          <div>November 7,2022</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
