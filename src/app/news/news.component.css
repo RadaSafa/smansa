@@ -1,0 +1,10 @@
+.img{
+    width: 800px;
+    height: 900px;
+}
+
+.hr{
+    width: 800px;
+    height: 1px;
+    background-color: rgb(240, 234, 234);
+}
